@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
+		<script type="text/javascript" src="jquery.browser-ie11.js"></script>
+		<script type="text/javascript">
+		$(function() {
+			$('body').text(($.browser.msie ? 'msie' : 'not msie') + ' ' + $.browser.version);
+		});
+		</script>
+	</head>
+	<body>
+		<!-- Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko -->
+	</body>
+</html>
